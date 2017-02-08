@@ -27,7 +27,7 @@ class ComponentnameModelFileupload extends JModelAdmin
 	*/
 	public function getValuesSection1($rowData, $data){
 
-		$values = ' "'.$data['section'][0].'" , "'.str_replace("'","",$rowData[0][0]).'" ,"'.str_replace("'","",$rowData[0][6]).'" , "'.$data['year'].'" ,"'.str_replace("'","",$rowData[0][7]).'", "'.$rowData[0][8].'" , "'.$rowData[0][9].'" ,"'.$rowData[0][10].'" , "'.$rowData[0][11].'" , "'.$rowData[0][12].'" ';
+		$values = ' "'.$data['section'][0].'" , "'.str_replace("'","",$rowData[0][0]).'" ,"'.str_replace("'","",$rowData[0][6]).'" , "'.$data['year'].'" ,"'.str_replace("'","",$rowData[0][7]).'", "'.$rowData[0][8].'" , "'.$rowData[0][9].'" ,"'.$rowData[0][10].'" , "'.$rowData[0][11].'" , "'.$rowData[0][12].'"  ';
 
 	 	return $values;
 	}
@@ -38,7 +38,7 @@ class ComponentnameModelFileupload extends JModelAdmin
 	 * @param   array  $data  section/year values
 	*/
 	public function getValuesSection2($rowData, $data){
-		$values = ' "'.$data['section'][0].'" , "'.str_replace("'","",$rowData[0][0]).'" ,"'.str_replace("'","",$rowData[0][6]).'" , "'.$data['year'].'" ,"'.str_replace("'","",$rowData[0][7]).'", "'.$rowData[0][8].'" , "'.$rowData[0][9].'" ,"'.$rowData[0][10].'" , "'.$rowData[0][11].'" , "'.$rowData[0][12].'" ';
+		$values = ' "'.$data['section'][0].'" , "'.str_replace("'","",$rowData[0][0]).'" ,"'.str_replace("'","",$rowData[0][6]).'" , "'.$data['year'].'" ,"'.str_replace("'","",$rowData[0][7]).'", "'.$rowData[0][8].'" , "'.$rowData[0][9].'" ,"'.$rowData[0][10].'" , "'.$rowData[0][11].'" , "'.$rowData[0][12].'"  ';
 
 	 	return $values;
 	}
