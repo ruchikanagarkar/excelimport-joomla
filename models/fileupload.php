@@ -19,10 +19,6 @@ jimport('joomla.application.component.modeladmin');
  */
 class ComponentnameModelFileupload extends JModelAdmin
 {
-	public function getForm ($data = array(), $loadData = true)
-	{
-
-	}
 
 	/**
 	 * Insert method for Section1 section
